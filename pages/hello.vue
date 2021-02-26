@@ -9,7 +9,7 @@
         My astonishing Nuxt.js project
       </h2>
       <div class="links">
-        <nuxt-link to="hello">Hello</nuxt-link>
+        <nuxt-link to="/">Top</nuxt-link>
         <a
           href="https://nuxtjs.org/"
           target="_blank"
