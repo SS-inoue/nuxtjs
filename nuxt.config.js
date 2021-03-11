@@ -43,8 +43,8 @@ export default {
     extend(config, ctx) {},
   },
   basic: {
-    name: 'admin',
-    pass: 'admin',
+    name: 'admin2',
+    pass: 'admin2',
     enabled: true,
   },
 };
