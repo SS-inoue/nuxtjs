@@ -32,7 +32,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['nuxt-basic-auth-module'],
   /*
    ** Build configuration
    */
@@ -41,5 +41,10 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {},
+  },
+  basic: {
+    name: 'admin',
+    pass: 'admin',
+    enabled: true,
   },
 };
